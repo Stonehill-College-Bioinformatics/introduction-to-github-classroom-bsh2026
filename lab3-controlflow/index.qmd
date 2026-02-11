@@ -122,9 +122,59 @@ Consider a vector containing the values: 91, 77, 68, 65, 89, 72, 85, 90, 80.
 **Tip**: A vector is a way of storing data, in this case, ordered integers:
 
 ```{r}
-grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
-```
+#grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
+#grade_tags = grades
+#for(n in 1:9){
+#  if(){
+#    grade_tags[n] = "Excellent"
+ # }
+  #for (n in 1:9) {
+ #   if (>90){
+   #   grade_tags[n>90]= "Excellent"
+#grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
+#n=grades[n>90]
+#for(n in 1:9) { 
+#if (grades[n]>90) {
+ # grade_tags[n]= "Excellent"
+#}
+ # }
+  
+#)
+  #if(grades[n]>90){
+ # n>90
+}
+  #    grade_tags[n]="Excellent"
+  #}
+#}
+#grade_tags
 
+#```
+
+
+#grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
+#grade_tags <- if grade_tags> 90 "Excellent"
+
+grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
+grade_tags<- ifelse(grades>90,"Excellent", ifelse(grades>=80 & grades <=90, "Good", "Fair")
+)
+grade_tags
+
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+    
 Write a conditional script that:
 
 1. Tags grades above 90 as "Excellent"
@@ -132,7 +182,12 @@ Write a conditional script that:
 3. Below 80 as "Fair"
 
 Store the result in a new variable called grade_tags. Ensure the order in grade_tags corresponds to the order of grades in the grades vector, and print the result.
+'''(r)
+```{r}
+grades <- c(91, 77, 68, 65, 89, 72, 85, 90, 80)
 
+
+```
 
 ### 2. For
 
